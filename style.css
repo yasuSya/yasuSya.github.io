@@ -1,0 +1,35 @@
+body {
+    padding: 1em;
+}
+
+.logo {
+    width: 100%;
+    text-align: right;
+}
+
+#logo {
+    width: 5em;
+}
+
+.title {
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child {
+    flex: 0 0 40%;
+}
+
+.child2 {
+    min-width: 40%;
+    flex: auto;
+}
+
+.button {
+    width: 100%;
+    text-align: right;
+}
